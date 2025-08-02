@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class RearrangingFruits {
     public long minCost(int[] basket1, int[] basket2) {
         HashMap<Integer, Integer> mp = new HashMap<>();
         int minEl = Integer.MAX_VALUE;
@@ -52,7 +52,7 @@ public class Solution {
 
     // Optional main method for testing
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        RearrangingFruits sol = new RearrangingFruits();
 
         int[] basket1 = {1, 2, 2, 3};
         int[] basket2 = {1, 3, 3, 2};
